@@ -9,6 +9,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 near-sdk = "4.0.0"
+router-wasm-bindings = { version = "0.1.16", default-features = false, features = ["ethabi"] }
 uint = { version = "0.9.3", default-features = false }
 
 [profile.release]
